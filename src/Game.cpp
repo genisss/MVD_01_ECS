@@ -10,7 +10,10 @@ void Game::init() {
 	//set 'background' colour of framebuffer
 	glClearColor(0.2f, 0.2f, 0.2f, 1.0f);
 
-	
+	//Transform& my_trans = createComponentFOR
+
+	int my_ent = ECS.createEntity("BOB");
+	ECS.createComponentForEntity<Transform>(my_ent);
 }
 
 //Entry point for game update code
