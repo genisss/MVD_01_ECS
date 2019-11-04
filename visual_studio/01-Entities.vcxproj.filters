@@ -9,6 +9,7 @@
       <Filter>common</Filter>
     </ClCompile>
     <ClCompile Include="..\src\Components.h" />
+    <ClCompile Include="..\src\GraphicsSystem.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\Game.h" />
@@ -22,6 +23,7 @@
     </ClInclude>
     <ClInclude Include="..\src\EntityComponentStore.h" />
     <ClInclude Include="..\src\extern.h" />
+    <ClInclude Include="..\src\GraphicsSystem.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="common">

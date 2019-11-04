@@ -1,6 +1,7 @@
 #pragma once
 #include "includes.h"
 #include "Components.h"
+#include "GraphicsSystem.h"
 
 class Game
 {
@@ -16,5 +17,5 @@ public:
 	GLuint temp_tris;
 
 private:
-
+	GraphicsSystem graphics_system_;
 };
